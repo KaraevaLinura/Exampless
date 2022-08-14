@@ -60,30 +60,36 @@
 //         }
 //     }
 // }
-// ДЗ 3
+// ДЗ 3 Определение четности, но с двузначными числами не работает????
 
-namespace ConsoleApplication1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int a;
-            Console.Write("введите число: ");
-            a= Console.Read();
+// namespace ConsoleApplication1
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             int a;
+//             Console.Write("введите число: ");
+//             a= Console.Read();
  
-            if (a % 2==1)
-            {
-                Console.WriteLine("нет");
+//             if (a % 2==1)
+//             {
+//                 Console.WriteLine("нет");
            
-            }
-            else
-            {
-                Console.WriteLine("да");
-            }
+//             }
+//             else
+//             {
+//                 Console.WriteLine("да");
+//             }
  
-            Console.ReadKey();
-        }
-    }
-}
+//             Console.ReadKey();
+//         }
+//     }
+// }
 
+// ДЗ 4
+
+Console.Write("Введи трёхзначное число: ");
+int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
+string stringNumber = Convert.ToString(threeDigitNumber);
+Console.WriteLine("вторая цифра этого числа -> "+stringNumber[1]);
