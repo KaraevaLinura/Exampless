@@ -30,32 +30,58 @@
 // }
 // ДЗ 2
 
-namespace HelloApp
+// namespace HelloApp
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine("Введите первое число: ");
+//             int a = Convert.ToInt32(Console.ReadLine());
+//             Console.WriteLine("Введите второе число: ");
+//             int b = Convert.ToInt32(Console.ReadLine());
+//             Console.WriteLine("Введите третье число: ");
+//             int c = Convert.ToInt32(Console.ReadLine());
+             
+//             if(a > b && a > c)
+//             {
+//                 Console.WriteLine(a);
+//             }
+//             else if (b > a && b > c)
+//             {
+//                 Console.WriteLine(b);
+//             }
+//             else
+//             {
+//                 Console.WriteLine(c);
+//             }
+            
+//             Console.ReadKey();
+//         }
+//     }
+// }
+// ДЗ 3
+
+namespace ConsoleApplication1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите первое число: ");
-            int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите второе число: ");
-            int b = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите третье число: ");
-            int c = Convert.ToInt32(Console.ReadLine());
-             
-            if(a > b && a > c)
+            int a;
+            Console.Write("введите число: ");
+            a= Console.Read();
+ 
+            if (a % 2==1)
             {
-                Console.WriteLine(a);
-            }
-            else if (b > a && b > c)
-            {
-                Console.WriteLine(b);
+                Console.WriteLine("нет");
+           
             }
             else
             {
-                Console.WriteLine(c);
+                Console.WriteLine("да");
             }
-            
+ 
             Console.ReadKey();
         }
     }
