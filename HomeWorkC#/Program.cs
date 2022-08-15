@@ -62,31 +62,31 @@
 // }
 // ДЗ 3 Определение четности, но с двузначными числами не работает????
 
-// namespace ConsoleApplication1
-// {
-//     class Program
-//     {
-//         static void Main(string[] args)
-//         {
-//             int a;
-//             Console.Write("введите число: ");
-//             a= Console.Read();
+/* namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a;
+            Console.Write("введите число: ");
+            a= Console.Read();
  
-//             if (a % 2==1)
-//             {
-//                 Console.WriteLine("нет");
+            if (a % 2 == 1)
+            {
+                Console.WriteLine("нет");
            
-//             }
-//             else
-//             {
-//                 Console.WriteLine("да");
-//             }
+            }
+            else
+            {
+                Console.WriteLine("да");
+            }
  
-//             Console.ReadKey();
-//         }
-//     }
-// }
-
+            Console.ReadKey();
+        }
+    }
+}
+*/
 // ДЗ 4
 
 // Console.Write("Введи трёхзначное число: ");
@@ -94,6 +94,7 @@
 // string stringNumber = Convert.ToString(threeDigitNumber);
 // Console.WriteLine("вторая цифра этого числа -> "+stringNumber[1]);
 
+/*
 Console.Write("Введи число: ");
 int anyNumber = Convert.ToInt32(Console.ReadLine());
 string anyNumberText = Convert.ToString(anyNumber);
@@ -104,4 +105,13 @@ Console.WriteLine("третья цифра -> " + anyNumberText[2]);
 else
 {
 Console.WriteLine("-> третьей цифры нет");
+}
+*/
+
+
+int i = 1; // Создание переменной
+while (i <= 10) { // Здесь только условие
+	Console.Write(i);
+    Console.WriteLine(" Это просто обучение");
+	i = i + 2; // Увеличение переменной
 }
